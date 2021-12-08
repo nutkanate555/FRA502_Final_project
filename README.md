@@ -63,13 +63,13 @@ roslaunch FRA502_Final_project all_in_one.launch
  
  ## The problems that I ever found while doing this project.
  1. "joint state pubisher" and "gazebo" sending the TF to RVIZ at the same time. So, it cause glitching visualization in RVIZ.\ 
-    And I fix this problem by remove the "joint state pubisher" from my rviz file.\
+    And I fix this problem by remove the "joint state pubisher" from my rviz file.
  2. the odometry of the robot in "map" and "gazebo" aren't the same when I rotate my robot.\
     The solution to fix this problem is:\
     2.1. Add some mass to my robot.\
-    2.2. Tuning the "wheel_separation multiplier" in "config.yaml" file.\
+    2.2. Tuning the "wheel_separation multiplier" in "config.yaml" file.
  3. Can't install pyaudio on my env.\
-    The solution to fix this problem is:\
+    The solution to fix this problem is:
 ```
 sudo apt-get install python3-pip
 sudo apt-get install portaudio19-dev
