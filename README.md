@@ -15,6 +15,10 @@
 ## Task of  this robot:
  This robot is made for delivery the snack or somethings else in the karaoke bars.
  
+## Requirement
+ 1. ros plugin: amcl, gmapping, map_server, rospy, movebase, actionlib
+ 2. python library: SpeechRecognition, Pyaudio
+ 
 ## Context:
  1. URDF Creation and World creation in gazebo.
  2. Using Laser scan topic (hokuyo) : Gmapping and Localization with amcl.
@@ -42,5 +46,6 @@ source devel/setup.bash
 ```
 2. Launch the project via terminal by using
 ```
-roslaunch FRA502_Final_project 
+roslaunch FRA502_Final_project all_in_one.launch
 ```
+3. Let's test my project!!!. XD
