@@ -49,3 +49,30 @@ source devel/setup.bash
 roslaunch FRA502_Final_project all_in_one.launch
 ```
 3. Let's test my project!!!. XD
+
+## How to command this robot
+1. Firstly robot will let's user say something to test microphone and go to "Standby station"
+2. After the robot arrive at "Standby station" user will have 6 choice to command the robot to let it go to user's desire room.\
+   This is the command:
+```
+"ไปห้อง x" => Go to room x
+```
+ Note 0: My woold have 6 rooms so "x" will be "1-6"\
+ Note 1: My robot's commands are in Thai language, So, when user command the nummber such as, "1" : the user should spell "หนึ่ง" to command my robot.
+ 3. My robot will go to the desire room and back to Standby station. and wait for new command. [look command at 2.]
+ 
+ ## The problems that I ever found while doing this project.
+ 1. "joint state pubisher" and "gazebo" sending the TF to RVIZ at the same time. So, it cause glitching visualization in RVIZ.\ 
+    And I fix this problem by remove the "joint state pubisher" from my rviz file.\
+ 2. the odometry of the robot in "map" and "gazebo" aren't the same when I rotate my robot.\
+    The solution to fix this problem is:\
+    2.1. Add some mass to my robot.\
+    2.2. Tuning the "wheel_separation multiplier" in "config.yaml" file.\
+ 3. Can't install pyaudio on my env.\
+    The solution to fix this problem is:\
+```
+sudo apt-get install python-pip
+sudo apt-get install portaudio19-dev
+sudo apt-get install python-pyaudio
+pip install PyAudio
+```
