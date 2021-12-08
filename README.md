@@ -62,7 +62,8 @@ roslaunch FRA502_Final_project all_in_one.launch
  3. My robot will go to the desire room and back to Standby station. and wait for new command. [look command at 2.]
  
  ## The problems that I ever found while doing this project.
- 1. "joint state pubisher" and "gazebo" sending the TF to RVIZ at the same time. So, it cause glitching visualization in RVIZ.\ 
+ 1. "joint state pubisher" and "gazebo" sending the TF to RVIZ at the same time.\
+    So, it cause glitching visualization in RVIZ.\
     And I fix this problem by remove the "joint state pubisher" from my rviz file.
  2. the odometry of the robot in "map" and "gazebo" aren't the same when I rotate my robot.\
     The solution to fix this problem is:\
