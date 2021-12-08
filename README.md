@@ -71,7 +71,7 @@ roslaunch FRA502_Final_project all_in_one.launch
  3. Can't install pyaudio on my env.\
     The solution to fix this problem is:\
 ```
-sudo apt-get install python-pip
+sudo apt-get install python3-pip
 sudo apt-get install portaudio19-dev
 sudo apt-get install python-pyaudio
 pip install PyAudio
