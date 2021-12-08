@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find fra502_final_project)/Launch/gazebo.launch"></include>
+  <include file="$(find fra502_final_project)/Launch/spawn.launch"></include>
+  <include file="$(find fra502_final_project)/Launch/navigation.launch"></include>
+  <include file="$(find fra502_final_project)/Launch/rviz.launch"></include>
+  <include file="$(find fra502_final_project)/Launch/GoalCommander.launch"></include>
+</launch>

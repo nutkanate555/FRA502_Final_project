@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="fra502_final_project" name="Commander_node" type="GoalCommander.py" output="screen"> 
+  </node>
+</launch>

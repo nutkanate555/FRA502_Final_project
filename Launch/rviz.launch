@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <param name="robot_description" textfile="$(find fra502_final_project)/Models/robot.urdf" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find fra502_final_project)/rviz/rviz_config.rviz"/>
+  
+</launch>
