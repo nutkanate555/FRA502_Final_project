@@ -1,6 +1,6 @@
 # FRA502_Final_project
  This is my first ROS Project
-## Task of  this robot
+## Task of  this robot:
  This robot made for delivery the snack or somethings else in the karaoke bars. 
 ## Context:
  1.URDF Creation and World creation in gazebo.
