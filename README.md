@@ -77,3 +77,6 @@ sudo apt-get install portaudio19-dev
 sudo apt-get install python-pyaudio
 pip install PyAudio
 ```
+
+## Video link:
+https://drive.google.com/file/d/1BCzqJAdRvgO7GDjJKMNfAd_9QJdQJYa1/view?usp=sharing
